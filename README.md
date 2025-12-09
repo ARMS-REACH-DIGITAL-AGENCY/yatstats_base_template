@@ -52,6 +52,8 @@ You can deploy your own version of the Next.js AI Chatbot to Vercel with one cli
 
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/templates/next.js/nextjs-ai-chatbot)
 
+For the YatStats stack, see the [deployment runbook](./DEPLOYMENT.md) for the exact Vercel + Neon flow we use today.
+
 ## Running locally
 
 You will need to use the environment variables [defined in `.env.example`](.env.example) to run Next.js AI Chatbot. It's recommended you use [Vercel Environment Variables](https://vercel.com/docs/projects/environment-variables) for this, but a `.env` file is all that is necessary.
